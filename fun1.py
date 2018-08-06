@@ -1,10 +1,15 @@
 
-def add_numbers():
+def add_numbers(start, end):
     c = 0
-    for number in range(1, 100 + 1):
+    for number in range(start, end):
         print(number)
-        c = c + number
-    return c
-answer = add_numbers()
+        c += number
 
+    return c
+
+answer = add_numbers (333, 778)
 print(answer)
+        
+        
+
+
